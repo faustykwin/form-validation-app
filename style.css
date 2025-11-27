@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/45/02/b4/4502b40c8fb6e121263d4ba0324641bb.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: plum;
+    box-shadow: 10px 10px 30px rgba(7, 7, 7, 0.1);
+    margin-top: 70px;
+}
+
+#name,
+#email,
+#password {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#btn {
+    width: 70%;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+#btn:hover {
+    background-color: indigo;
+    animation: transition 0.5s;
+}
